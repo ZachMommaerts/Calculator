@@ -13,6 +13,8 @@
 		416817B42A683DA200DCC1B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416817B32A683DA200DCC1B5 /* Preview Assets.xcassets */; };
 		416817BB2A683F2E00DCC1B5 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416817BA2A683F2E00DCC1B5 /* CalculatorButton.swift */; };
 		416817BD2A68407E00DCC1B5 /* CalculatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416817BC2A68407E00DCC1B5 /* CalculatorRow.swift */; };
+		416817BF2A684C0400DCC1B5 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416817BE2A684C0400DCC1B5 /* Calculator.swift */; };
+		416817C12A684C2F00DCC1B5 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416817C02A684C2F00DCC1B5 /* Operator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		416817B32A683DA200DCC1B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		416817BA2A683F2E00DCC1B5 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 		416817BC2A68407E00DCC1B5 /* CalculatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRow.swift; sourceTree = "<group>"; };
+		416817BE2A684C0400DCC1B5 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		416817C02A684C2F00DCC1B5 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				416817BC2A68407E00DCC1B5 /* CalculatorRow.swift */,
 				416817B02A683DA200DCC1B5 /* Assets.xcassets */,
 				416817B22A683DA200DCC1B5 /* Preview Content */,
+				416817BE2A684C0400DCC1B5 /* Calculator.swift */,
+				416817C02A684C2F00DCC1B5 /* Operator.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				416817BD2A68407E00DCC1B5 /* CalculatorRow.swift in Sources */,
+				416817C12A684C2F00DCC1B5 /* Operator.swift in Sources */,
 				416817AF2A683DA100DCC1B5 /* CalculatorHome.swift in Sources */,
 				416817BB2A683F2E00DCC1B5 /* CalculatorButton.swift in Sources */,
+				416817BF2A684C0400DCC1B5 /* Calculator.swift in Sources */,
 				416817AD2A683DA100DCC1B5 /* CalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
